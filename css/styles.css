@@ -16,7 +16,7 @@ ol {
 }
 
 /*! прихований заголовок */
-.visually-hidden {
+/* .visually-hidden {
     position: absolute;
     width: 1px;
     height: 1px;
@@ -25,7 +25,7 @@ ol {
     padding: 0;
     white-space: nowrap;
     overflow: hidden;
-}
+} */
 
 /** -----------------HEADER--------------------- */
 .header {
@@ -153,7 +153,9 @@ ol {
 
 /** -----------------TEAM--------------------- */
 
-.team {}
+.team {
+    background: var(--CLOUD, #F4F4FD);
+}
 
 .team-title {
     color: var(--NAVY-BLUE, #2E2F42);
@@ -165,11 +167,11 @@ ol {
     text-transform: capitalize;
 }
 
-.team-list {
+.team-list {}
+
+.team-item {
     background: var(--CLOUD, #F4F4FD);
 }
-
-.team-item {}
 
 .team-img {}
 
