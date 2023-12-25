@@ -170,7 +170,7 @@ ol {
 .team-list {}
 
 .team-item {
-    background: var(--CLOUD, #F4F4FD);
+    background: var(--CLOUD, #FFFFFF);
 }
 
 .team-img {}
